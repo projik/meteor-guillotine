@@ -28,8 +28,8 @@ profile picture or avatar.
 Setup
 -----
 1.  Install the package
-
-    meteor add supaseca:guillotine
+    
+        meteor add supaseca:guillotine
 
 2.  Set the width of the parent element:
     ```html
