@@ -5,8 +5,9 @@ Package.describe({
   git: "https://github.com/projik/meteor-guillotine.git"
 });
 
-Package.onUse(function (api) {
-  api.versionsFrom('0.9.0');
+Package.onUse(function(api) {
+  api.versionsFrom('1.2.1');
+  api.use('ecmascript');
   api.use('jquery', 'client');
   api.imply('jquery', 'client');
   api.addFiles([
@@ -15,3 +16,4 @@ Package.onUse(function (api) {
   ], 'client'
   );
 });
+
